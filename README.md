@@ -34,8 +34,9 @@ is_dark
 go build -o /usr/local/bin
 ```
 
+
+## Download pre-compiled binary
+
 ```bash
-# Cross-compile script
-chmod +x ./build.sh
-./build.sh
+wget https://github.com/yejun614/macos-darkmode-go/releases/download/v0.1.0/darkmode -O /usr/local/bin
 ```
