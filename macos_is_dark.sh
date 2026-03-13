@@ -6,14 +6,15 @@ function is_dark() {
 }
 
 # https://github.com/pndurette/zsh-lux/blob/main/zsh-lux.plugin.zsh#L125C1-L137C2
-# function example() {
-#   local dark_mode=$(dark_flag)
-# 
-#   if   [[ "$dark_mode" == "true" ]];  then return 0
-#   elif [[ "$dark_mode" == "false" ]]; then return 1
-#   else
-#     return 2
-#   fi
-# }
+function example() {
+  local dark_mode=$(dark_flag)
 
-echo -n $(is_dark)
+  if   [[ "$dark_mode" == "true" ]];  then return 0
+  elif [[ "$dark_mode" == "false" ]]; then return 1
+  else
+    return 2
+  fi
+}
+
+# DEBUG
+# echo -n $(is_dark)

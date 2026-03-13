@@ -21,6 +21,13 @@ darkmode off
 darkmode toggle
 ```
 
+```bash
+source ./macos_is_dark.sh
+
+# Get current mode (true or false)
+is_dark
+```
+
 ## Build and Installation
 ```bash
 # You will need to install Golang to compile it yourself
